@@ -1,0 +1,81 @@
+.home{
+    width: 100vw;
+    height : 100vh;
+    background-image: url('../assets/food.jpeg');
+}
+
+.text-container{
+    padding: 150px;
+    text-align: left;
+
+}
+
+.text-container1{
+    font-size: 60px;
+    margin:10px;
+
+}
+
+.text-container2{
+    font-size: 25px;
+    margin:10px;
+
+}
+
+.button{
+    background-color: #464a46;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+.menu-title{
+    margin: 20px;
+    font-size: 50px;
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content:center;
+    align-items: center;
+        
+}
+
+.container{
+        height:300px;
+        width: 250px;
+        /* padding:20px; */
+        margin:40px;
+        border-radius:15px;
+        border: 1px solid gainsboro;
+        background-color:rgb(245, 250, 248);
+        
+        
+    
+}
+
+.food-image{
+    border-radius: 15px;
+    height:200px;
+    width:245px;
+}
+
+.heading{
+    font-size: 40px;
+}
+.text{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-image{
+    height: 600px;
+    width: 100%;
+}
